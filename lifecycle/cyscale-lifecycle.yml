@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.cyscale.com
+status_page: https://status.cyscale.com
+notes: >-
+  Cyscale operates a public status page (status.cyscale.com, sourced from the
+  cyscale/status.cyscale.com GitHub repo) covering the availability of its
+  websites and the Cyscale Cloud Platform (app.cyscale.com). No public,
+  versioned REST API is documented, so no API versioning scheme, deprecation
+  policy, or Sunset/Deprecation (RFC 8594) header support was found. Cloud
+  discovery is performed agentlessly through each cloud provider's native APIs
+  rather than a versioned Cyscale-published API surface.
+versioning:
+  scheme: null
+  current: null
+  docs: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
