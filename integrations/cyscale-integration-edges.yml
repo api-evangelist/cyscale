@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- https://github.com/marketplace?type=apps
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -19,3 +20,24 @@ edges:
   seller_name: Cyscale
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: GitHub Marketplace (apps)
+  partner: github
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/cyscale-security
+  listing_count: 2
+  apps:
+  - Cyscale Security
+  - Cyscale Security
+  publisher_name: Cyscale - Cloud Security
+  badges:
+  - Verified creator
+  - Verified domain
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+source:
+- https://github.com/marketplace?type=apps
