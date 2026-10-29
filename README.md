@@ -64,6 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cyscale is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Cyscale is an agentless, cloud-native application protection platform (CNAPP) that continuously monitors multi-cloud environments to surface, contextualize, and prioritize security risk. It unifies Cloud Security Posture Management (CSPM), Cloud Infrastructure Entitlement Management (CIEM), Kubernetes Security Posture Management (KSPM), and Data Security Posture Management (DSPM) into a single control plane, using a graph-based "Security Knowledge Graph" to map relationships between misconfigurations, vulnerabilities, identities, and data so teams know what to fix first. Cyscale connects to AWS, Azure, Google Cloud, and identity providers through secure, provider-native mechanisms and maps findings to compliance frameworks such as ISO 27001, SOC 2, PCI DSS, and NIST. Cyscale is a Seedcamp portfolio company; it exposes API keys for CI/CD and developer-tool integrations but does not publish a versioned public REST API specification.
 
-Backed by: seedcamp — http://cyscale.com
+**Areas:** Company · Cloud Security · CNAPP · CSPM · CIEM · KSPM · DSPM · Cloud Compliance · Kubernetes Security · Cybersecurity
+
+## Cyscale on APIs.io
+
+Everything profiled for Cyscale is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cyscale/](https://apis.io/providers/cyscale/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cyscale Domain Security](https://apis.io/security/cyscale/cyscale-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cyscale.com)
+- [Documentation](https://docs.cyscale.com)
+- [Getting started](https://docs.cyscale.com)
+- [Pricing](https://cyscale.com/pricing/)
+- [Sign up](https://cyscale.com/free-trial/)
+- [Support](https://cyscale.com/contact-us/)
+- [Blog](https://cyscale.com/blog/)
+- [Compliance](https://cyscale.com/policies/security-policy/)
+- [Terms of service](https://cyscale.com/policies/terms-of-use/)
+- [Privacy policy](https://cyscale.com/policies/privacy-policy/)
+- [GitHub](https://github.com/cyscale)
+- [Status](https://status.cyscale.com)
+
+## API Evangelist rating
+
+**Kin Score 25.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cyscale/](https://apis.io/providers/cyscale/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cyscale: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cyscale/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
